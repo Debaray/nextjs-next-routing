@@ -17,8 +17,8 @@ function ProductList({productId = 100}) {
                 </Link>
             </h2>
             <h2>
-                <Link href='/product/3' replace> {/*replace is used for when click back then we can assign a url*/}
-                    <a>Product 3</a>
+                <Link href='/product/3' replace>{/*replace is used for when click back then we can assign a url*/} 
+                    <a> Product 3 </a>
                 </Link>
             </h2>
             <h2>
