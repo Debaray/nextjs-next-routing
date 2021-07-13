@@ -1,3 +1,5 @@
+import User from "../../components/user";
+
 function UserList(props) {
     const { users } = props;
     return (
@@ -7,8 +9,7 @@ function UserList(props) {
                 users?.map(user => {
                     return (
                         <div key={user.id}>
-                            <p>{user.name}</p>
-                            <p>{user.email}</p>
+                          <User user={user}></User>
                         </div>
                     )
                 })
